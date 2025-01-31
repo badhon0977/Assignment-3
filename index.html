@@ -40,7 +40,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="bg-linear-to-t from-[#EFEBE3] to-[#FFFFFF]">
         <!-- nav-bar section -->
         <nav
             class="sora-font container mx-auto sm:mx-auto lg:mt-[24px] flex justify-between items-center lg:border-none border border-[#179800]">
@@ -83,8 +83,133 @@
         </nav>
 
         <!-- banner section -->
-         
+        <section>
+            <div class="sora-font banner-titel">
+                <!-- for larger device -->
+                <div class="hidden lg:block space-y-[32px] mt-[90px]">
+                    <h1 class="font-semibold text-[56px] text-center">Freshness <span class="text-[#179800]">You Can<br>
+                            Count</span> On, Prices You’ll Love!
+                    </h1>
+                    <p class="text-center font-normal text-xl text-[#111111]">Shop your daily essentials at unbeatable
+                        prices. From
+                        fresh produce to pantry<br> staples, we’ve got
+                        you covered every day!
+                    </p>
+                </div>
+                <!-- for small device -->
+                <div class="block lg:hidden space-y-[16px] mt-[48px]">
+                    <h1 class="font-semibold text-[32px] text-center">Freshness <span class="text-[#179800]">You Can<br>
+                            Count</span> On, Prices<br> You’ll Love!
+                    </h1>
+                    <p class="text-center font-light text-base text-[#111111]">Shop your daily essentials at
+                        unbeatable<br>
+                        prices. From
+                        fresh produce to pantry<br> staples, we’ve got
+                        you covered every day!
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-center mt-[37px]">
+                <img src="./assets/hero-vegetables.png">
+            </div>
+        </section>
     </header>
+
+    <main>
+        <!-- services section -->
+        <section>
+            <!-- for larger device -->
+            <div class="sora-font hidden lg:block my-[140px] container mx-auto space-y-[48px]">
+                <div>
+                    <h1 class="font-semibold text-4xl text-[#179800]">Services</h1>
+                </div>
+                <div class="flex gap-[24px]">
+                    <!-- 24/7 Services -->
+                    <div
+                        class="bg-[#EFEBE3] w-[424px] h-[367px] p-[32px] border-none rounded-[16px] text-center content-center">
+                        <div class="flex justify-center items-center"><img
+                                class="bg-white w-[100px] h-[100px] mb-[24px] border-10 border-white rounded-full"
+                                src="./assets/service.png"></div>
+                        <h3 class="font-semibold text-2xl text-[#111111] mb-[12px]">24/7 Services</h3>
+                        <p class="font-light text-xl text-[#111111]">All your needs, anytime, delivered to your door.
+                            Fast
+                            and convenient, 24/7 grocery shopping.</p>
+                    </div>
+
+                    <!-- Fast Delivery -->
+                    <div
+                        class="bg-[#EFEBE3] w-[424px] h-[367px] p-[32px] border-none rounded-[16px] text-center content-center">
+                        <div class="flex justify-center items-center"><img
+                                class="bg-white w-[100px] h-[100px] mb-[24px] border-10 border-white rounded-full"
+                                src="./assets/delivery.png"></div>
+                        <h3 class="font-semibold text-2xl text-[#111111] mb-[12px]">Fast Delivery</h3>
+                        <p class="font-light text-xl text-[#111111]">Experience the speed of our delivery. Your
+                            groceries
+                            arrive quickly and conveniently, right at your doorstep.</p>
+                    </div>
+                    <!-- Healthy Products  -->
+                    <div
+                        class="bg-[#EFEBE3] w-[424px] h-[367px] p-[32px] border-none rounded-[16px] text-center content-center">
+                        <div class="flex justify-center items-center"><img
+                                class="bg-white w-[100px] h-[100px] mb-[24px] border-10 border-white rounded-full"
+                                src="./assets/healthy.png"></div>
+                        <h3 class="font-semibold text-2xl text-[#111111] mb-[12px]">Healthy Products</h3>
+                        <p class="font-light text-xl text-[#111111]">Discover a wide range of healthy products, from
+                            fresh
+                            fruits and vegetables to organic options and whole grains.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- for small device -->
+            <div class="sora-font block lg:hidden my-[48px] space-y-[32px] w-11/12 mx-auto">
+                <div>
+                    <h1 class="font-semibold text-2xl text-[#179800]">Services</h1>
+                </div>
+                <div class="space-y-[20px]">
+                    <!-- 24/7 Services -->
+                    <div
+                        class="bg-[#EFEBE3] w-[380px] h-[308px] p-[32px] border-none rounded-[16px] text-center content-center">
+                        <div class="flex justify-center items-center"><img
+                                class="bg-white w-[84px] h-[84px] mb-[24px] border-10 border-white rounded-full"
+                                src="./assets/service.png"></div>
+                        <h3 class="font-semibold text-xl text-[#111111] mb-[12px]">24/7 Services</h3>
+                        <p class="font-light text-base text-[#111111]">All your needs, anytime, delivered to your door.
+                            Fast
+                            and convenient, 24/7 grocery shopping.
+                        </p>
+                    </div>
+                    <!-- Fast Delivery -->
+                    <div
+                        class="bg-[#EFEBE3] w-[380px] h-[308px] p-[32px] border-none rounded-[16px] text-center content-center">
+                        <div class="flex justify-center items-center"><img
+                                class="bg-white w-[84px] h-[84px] mb-[24px] border-10 border-white rounded-full"
+                                src="./assets/delivery.png"></div>
+                        <h3 class="font-semibold text-xl text-[#111111] mb-[12px]">Fast Delivery</h3>
+                        <p class="font-light text-base text-[#111111]">Experience the speed of our delivery. Your
+                            groceries
+                            arrive quickly and conveniently, right at your doorstep.
+                        </p>
+                    </div>
+
+                    <!-- Healthy Products  -->
+                    <div
+                        class="bg-[#EFEBE3] w-[380px] h-[308px] p-[32px] border-none rounded-[16px] text-center content-center">
+                        <div class="flex justify-center items-center"><img
+                                class="bg-white w-[84px] h-[84px] mb-[24px] border-10 border-white rounded-full"
+                                src="./assets/healthy.png"></div>
+                        <h3 class="font-semibold text-xl text-[#111111] mb-[12px]">Healthy Products</h3>
+                        <p class="font-light text-base text-[#111111]">Discover a wide range of healthy products,
+                            from
+                            fresh
+                            fruits and vegetables to organic options and whole grains.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Products -->
+    </main>
 </body>
 
 </html>
